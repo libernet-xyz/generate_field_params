@@ -1,4 +1,8 @@
 #!/usr/bin/env python3
+
+# Copyright 2026 The Libernet Team
+# SPDX-License-Identifier: Apache-2.0
+
 """Compute Montgomery constants for a given prime modulus."""
 
 import math
