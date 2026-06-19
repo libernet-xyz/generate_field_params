@@ -53,6 +53,8 @@ omega_inv = pow(omega, p - 2, p)
 assert (pow(omega, 1 << i, p) != 1 for i in range(0, s))
 assert pow(omega, 1 << s, p) == 1
 
+delta = pow(g, 1 << s, p)
+
 
 def hex(n):
     return f"{n:#0{66}x}"
@@ -90,4 +92,5 @@ print()
 print(f"S:           {s}")
 print(f"w          = {hex(omega)}, {mont(omega)}")
 print(f"w^-1       = {hex(omega_inv)}, {mont(omega_inv)}")
+print(f"delta      = {hex(delta)}, {mont(delta)}")
 print()
