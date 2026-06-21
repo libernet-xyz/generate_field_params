@@ -79,8 +79,8 @@ print()
 
 print(f"R          = {hex(1 << k)}")
 print(f"gcd(R, p)  = {math.gcd((1 << k), p)}  (must be 1)")
-print(f"R mod p    = {hex(R)}, {mont(R)}")
-print(f"R^2 mod p  = {hex(R2)}, {mont(R2)}")
+print(f"R mod p    = {hex(R)}")
+print(f"R^2 mod p  = {hex(R2)}")
 print()
 
 print(f"p-1        = {hex(p - 1)}, {mont(p - 1)}")
