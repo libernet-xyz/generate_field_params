@@ -85,6 +85,7 @@ print()
 
 print(f"p-1        = {hex(p - 1)}, {mont(p - 1)}")
 print(f"p-2        = {hex(p - 2)}, {mont(p - 2)}")
+print(f"g          = {hex(g)}, {mont(g)}")
 print()
 
 print(f"P0         = {hex(p0)}")
