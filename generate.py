@@ -84,6 +84,7 @@ print(f"R^2 mod p  = {hex(R2)}, {mont(R2)}")
 print()
 
 print(f"p-1        = {hex(p - 1)}, {mont(p - 1)}")
+print(f"p-2        = {hex(p - 2)}, {mont(p - 2)}")
 print()
 
 print(f"P0         = {hex(p0)}")
